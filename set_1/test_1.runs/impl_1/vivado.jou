@@ -2,8 +2,8 @@
 # Vivado v2019.2.1 (64-bit)
 # SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
 # IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
-# Start of session at: Wed Mar 11 11:38:44 2020
-# Process ID: 28070
+# Start of session at: Wed Mar 11 12:01:41 2020
+# Process ID: 1884
 # Current directory: /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/impl_1
 # Command line: vivado -log system.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system.tcl -notrace
 # Log file: /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/impl_1/system.vdi

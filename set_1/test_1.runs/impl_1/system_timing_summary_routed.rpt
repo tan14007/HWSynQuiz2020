@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
-| Date         : Wed Mar 11 11:39:29 2020
+| Date         : Wed Mar 11 12:02:26 2020
 | Host         : polp-desktop running 64-bit Ubuntu 18.04.4 LTS
 | Command      : report_timing_summary -max_paths 10 -file system_timing_summary_routed.rpt -pb system_timing_summary_routed.pb -rpx system_timing_summary_routed.rpx -warn_on_violation
 | Design       : system
@@ -54,53 +54,53 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[10].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[10].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[11].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[11].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[12].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[12].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[13].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[13].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[14].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[14].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[15].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[15].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[16].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[16].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[17].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[17].nolabel_line17/out_reg/Q (HIGH)
 
- There are 5 register/latch pins with no clock driven by root clock pin: genblk1[18].nolabel_line14/out_reg/Q (HIGH)
+ There are 5 register/latch pins with no clock driven by root clock pin: genblk1[18].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[19].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[19].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[1].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[1].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[20].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[20].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[21].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[21].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[22].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[22].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[23].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[23].nolabel_line17/out_reg/Q (HIGH)
 
- There are 5 register/latch pins with no clock driven by root clock pin: genblk1[24].nolabel_line14/out_reg/Q (HIGH)
+ There are 5 register/latch pins with no clock driven by root clock pin: genblk1[24].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[2].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[2].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[3].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[3].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[4].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[4].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[5].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[5].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[6].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[6].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[7].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[7].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[8].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[8].nolabel_line17/out_reg/Q (HIGH)
 
- There is 1 register/latch pin with no clock driven by root clock pin: genblk1[9].nolabel_line14/out_reg/Q (HIGH)
+ There is 1 register/latch pin with no clock driven by root clock pin: genblk1[9].nolabel_line17/out_reg/Q (HIGH)
 
 
 2. checking constant_clock
@@ -237,9 +237,9 @@ PW    :            0  Failing Endpoints,  Worst Slack        4.500ns,  Total Vio
 Max Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             8.613ns  (required time - arrival time)
-  Source:                 genblk1[1].nolabel_line14/out_reg/C
+  Source:                 genblk1[1].nolabel_line17/out_reg/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            genblk1[1].nolabel_line14/out_reg/D
+  Destination:            genblk1[1].nolabel_line17/out_reg/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Setup (Max at Slow Process Corner)
@@ -265,14 +265,14 @@ Slack (MET) :             8.613ns  (required time - arrival time)
     W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
                          net (fo=1, routed)           1.967     3.425    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
-                         net (fo=1, routed)           1.620     5.141    genblk1[1].nolabel_line14/clk_IBUF_BUFG
-    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line14/out_reg/C
+                         net (fo=1, routed)           1.620     5.141    genblk1[1].nolabel_line17/clk_IBUF_BUFG
+    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line17/out_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X58Y27         FDRE (Prop_fdre_C_Q)         0.456     5.597 f  genblk1[1].nolabel_line14/out_reg/Q
-                         net (fo=2, routed)           0.801     6.398    genblk1[1].nolabel_line14/in
-    SLICE_X58Y27         LUT1 (Prop_lut1_I0_O)        0.124     6.522 r  genblk1[1].nolabel_line14/out_i_1/O
-                         net (fo=1, routed)           0.000     6.522    genblk1[1].nolabel_line14/out_i_1_n_0
-    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line14/out_reg/D
+    SLICE_X58Y27         FDRE (Prop_fdre_C_Q)         0.456     5.597 f  genblk1[1].nolabel_line17/out_reg/Q
+                         net (fo=2, routed)           0.801     6.398    genblk1[1].nolabel_line17/in
+    SLICE_X58Y27         LUT1 (Prop_lut1_I0_O)        0.124     6.522 r  genblk1[1].nolabel_line17/out_i_1/O
+                         net (fo=1, routed)           0.000     6.522    genblk1[1].nolabel_line17/out_i_1_n_0
+    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line17/out_reg/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -282,11 +282,11 @@ Slack (MET) :             8.613ns  (required time - arrival time)
     W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
                          net (fo=1, routed)           1.862    13.250    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
-                         net (fo=1, routed)           1.504    14.845    genblk1[1].nolabel_line14/clk_IBUF_BUFG
-    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line14/out_reg/C
+                         net (fo=1, routed)           1.504    14.845    genblk1[1].nolabel_line17/clk_IBUF_BUFG
+    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line17/out_reg/C
                          clock pessimism              0.296    15.141    
                          clock uncertainty           -0.035    15.106    
-    SLICE_X58Y27         FDRE (Setup_fdre_C_D)        0.029    15.135    genblk1[1].nolabel_line14/out_reg
+    SLICE_X58Y27         FDRE (Setup_fdre_C_D)        0.029    15.135    genblk1[1].nolabel_line17/out_reg
   -------------------------------------------------------------------
                          required time                         15.135    
                          arrival time                          -6.522    
@@ -300,9 +300,9 @@ Slack (MET) :             8.613ns  (required time - arrival time)
 Min Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             0.382ns  (arrival time - required time)
-  Source:                 genblk1[1].nolabel_line14/out_reg/C
+  Source:                 genblk1[1].nolabel_line17/out_reg/C
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
-  Destination:            genblk1[1].nolabel_line14/out_reg/D
+  Destination:            genblk1[1].nolabel_line17/out_reg/D
                             (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
   Path Group:             sys_clk_pin
   Path Type:              Hold (Min at Fast Process Corner)
@@ -323,14 +323,14 @@ Slack (MET) :             0.382ns  (arrival time - required time)
     W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
                          net (fo=1, routed)           0.631     0.858    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
-                         net (fo=1, routed)           0.584     1.467    genblk1[1].nolabel_line14/clk_IBUF_BUFG
-    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line14/out_reg/C
+                         net (fo=1, routed)           0.584     1.467    genblk1[1].nolabel_line17/clk_IBUF_BUFG
+    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line17/out_reg/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X58Y27         FDRE (Prop_fdre_C_Q)         0.141     1.608 f  genblk1[1].nolabel_line14/out_reg/Q
-                         net (fo=2, routed)           0.287     1.895    genblk1[1].nolabel_line14/in
-    SLICE_X58Y27         LUT1 (Prop_lut1_I0_O)        0.045     1.940 r  genblk1[1].nolabel_line14/out_i_1/O
-                         net (fo=1, routed)           0.000     1.940    genblk1[1].nolabel_line14/out_i_1_n_0
-    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line14/out_reg/D
+    SLICE_X58Y27         FDRE (Prop_fdre_C_Q)         0.141     1.608 f  genblk1[1].nolabel_line17/out_reg/Q
+                         net (fo=2, routed)           0.287     1.895    genblk1[1].nolabel_line17/in
+    SLICE_X58Y27         LUT1 (Prop_lut1_I0_O)        0.045     1.940 r  genblk1[1].nolabel_line17/out_i_1/O
+                         net (fo=1, routed)           0.000     1.940    genblk1[1].nolabel_line17/out_i_1_n_0
+    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line17/out_reg/D
   -------------------------------------------------------------------    -------------------
 
                          (clock sys_clk_pin rise edge)
@@ -340,10 +340,10 @@ Slack (MET) :             0.382ns  (arrival time - required time)
     W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
                          net (fo=1, routed)           0.685     1.099    clk_IBUF
     BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
-                         net (fo=1, routed)           0.851     1.978    genblk1[1].nolabel_line14/clk_IBUF_BUFG
-    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line14/out_reg/C
+                         net (fo=1, routed)           0.851     1.978    genblk1[1].nolabel_line17/clk_IBUF_BUFG
+    SLICE_X58Y27         FDRE                                         r  genblk1[1].nolabel_line17/out_reg/C
                          clock pessimism             -0.511     1.467    
-    SLICE_X58Y27         FDRE (Hold_fdre_C_D)         0.091     1.558    genblk1[1].nolabel_line14/out_reg
+    SLICE_X58Y27         FDRE (Hold_fdre_C_D)         0.091     1.558    genblk1[1].nolabel_line17/out_reg
   -------------------------------------------------------------------
                          required time                         -1.558    
                          arrival time                           1.940    
@@ -363,11 +363,11 @@ Sources:            { clk }
 
 Check Type        Corner  Lib Pin  Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location       Pin
 Min Period        n/a     BUFG/I   n/a            2.155         10.000      7.845      BUFGCTRL_X0Y0  clk_IBUF_BUFG_inst/I
-Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X58Y27   genblk1[1].nolabel_line14/out_reg/C
-Low Pulse Width   Fast    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line14/out_reg/C
-Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line14/out_reg/C
-High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line14/out_reg/C
-High Pulse Width  Fast    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line14/out_reg/C
+Min Period        n/a     FDRE/C   n/a            1.000         10.000      9.000      SLICE_X58Y27   genblk1[1].nolabel_line17/out_reg/C
+Low Pulse Width   Fast    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line17/out_reg/C
+Low Pulse Width   Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line17/out_reg/C
+High Pulse Width  Slow    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line17/out_reg/C
+High Pulse Width  Fast    FDRE/C   n/a            0.500         5.000       4.500      SLICE_X58Y27   genblk1[1].nolabel_line17/out_reg/C
 
 
 

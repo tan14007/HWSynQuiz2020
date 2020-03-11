@@ -28,7 +28,10 @@ begin
     end
     else 
         an = 4'b0000; // Else, display all
-    
+end
+
+always @(posedge clkDiv[24])
+begin
     case (num)  // For simplicity in code, we will use case for state changing
         10: num = 12;
         12: num = 14;

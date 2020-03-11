@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
-| Date         : Wed Mar 11 11:39:16 2020
+| Date         : Wed Mar 11 12:02:14 2020
 | Host         : polp-desktop running 64-bit Ubuntu 18.04.4 LTS
 | Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
 | Design       : system
@@ -73,32 +73,32 @@ Table of Contents
 +---------------------------------------+---------------+------------------+------------------+----------------+
 |              Clock Signal             | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +---------------------------------------+---------------+------------------+------------------+----------------+
-|  genblk1[16].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[8].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[17].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[8].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
 |  clk_IBUF_BUFG                        |               |                  |                1 |              1 |
-|  genblk1[1].nolabel_line14/in         |               |                  |                1 |              1 |
-|  genblk1[19].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[18].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[14].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[9].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[7].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[13].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[6].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[17].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[22].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[15].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[21].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[10].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[5].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[3].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[20].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[12].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[11].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[23].nolabel_line14/out_reg_0 |               |                  |                1 |              1 |
-|  genblk1[2].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[4].nolabel_line14/out_reg_0  |               |                  |                1 |              1 |
-|  genblk1[18].nolabel_line14/out_reg_0 |               | an[3]_i_1_n_0    |                1 |              4 |
-|  genblk1[24].nolabel_line14/CLK       |               |                  |                2 |              5 |
+|  genblk1[1].nolabel_line17/in         |               |                  |                1 |              1 |
+|  genblk1[19].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[18].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[15].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[14].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[9].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[7].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[13].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[6].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[4].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[16].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[21].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[23].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[22].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[5].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[3].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[10].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[20].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[12].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[11].nolabel_line17/out_reg_0 |               |                  |                1 |              1 |
+|  genblk1[2].nolabel_line17/out_reg_0  |               |                  |                1 |              1 |
+|  genblk1[18].nolabel_line17/out_reg_0 |               | an[3]_i_1_n_0    |                1 |              4 |
+|  genblk1[24].nolabel_line17/CLK       |               |                  |                2 |              5 |
 +---------------------------------------+---------------+------------------+------------------+----------------+
 
 

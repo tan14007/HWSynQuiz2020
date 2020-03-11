@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
-| Date         : Wed Mar 11 11:39:28 2020
+| Date         : Wed Mar 11 12:02:26 2020
 | Host         : polp-desktop running 64-bit Ubuntu 18.04.4 LTS
 | Command      : report_methodology -file system_methodology_drc_routed.rpt -pb system_methodology_drc_routed.pb -rpx system_methodology_drc_routed.rpx
 | Design       : system
@@ -69,117 +69,117 @@ Related violations: <none>
 
 TIMING-17#8 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[10].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[10].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#9 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[11].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[11].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#10 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[12].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[12].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#11 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[13].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[13].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#12 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[14].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[14].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#13 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[15].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[15].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#14 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[16].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[16].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#15 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[17].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[17].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#16 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[18].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[18].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#17 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[19].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[19].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#18 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[20].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[20].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#19 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[21].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[21].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#20 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[22].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[22].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#21 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[23].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[23].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#22 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[24].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[24].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#23 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[2].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[2].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#24 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[3].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[3].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#25 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[4].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[4].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#26 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[5].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[5].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#27 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[6].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[6].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#28 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[7].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[7].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#29 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[8].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[8].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#30 Critical Warning
 Non-clocked sequential cell  
-The clock pin genblk1[9].nolabel_line14/out_reg/C is not reached by a timing clock
+The clock pin genblk1[9].nolabel_line17/out_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#31 Critical Warning
