@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2018.3 (64-bit)
-# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
-# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue Mar 10 14:22:06 2020
-# Process ID: 4109
-# Current directory: /home/tan14007/test_1/test_1.runs/impl_1
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Mar 11 11:38:44 2020
+# Process ID: 28070
+# Current directory: /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/impl_1
 # Command line: vivado -log system.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system.tcl -notrace
-# Log file: /home/tan14007/test_1/test_1.runs/impl_1/system.vdi
-# Journal file: /home/tan14007/test_1/test_1.runs/impl_1/vivado.jou
+# Log file: /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/impl_1/system.vdi
+# Journal file: /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source system.tcl -notrace

@@ -1,8 +1,8 @@
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
--------------------------------------------------------------------------------------------------
-| Tool Version              : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date                      : Tue Mar 10 14:22:44 2020
-| Host                      : tan14007-VirtualBox running 64-bit Ubuntu 18.04.4 LTS
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version              : Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
+| Date                      : Wed Mar 11 11:39:16 2020
+| Host                      : polp-desktop running 64-bit Ubuntu 18.04.4 LTS
 | Command                   : report_io -file system_io_placed.rpt
 | Design                    : system
 | Device                    : xc7a35t
@@ -10,7 +10,7 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 | Package                   : cpg236
 | Package Version           : FINAL 2014-02-19
 | Package Pin Delay Version : VERS. 2.0 2014-02-19
--------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
 IO Information
 

@@ -16,7 +16,7 @@ for(i=1;i<=30;i=i+1)
 reg [6:0]clkSelect = 24;
 assign targetClk = clkDiv[clkSelect];
 
-reg [2:0]ledState = 3;
+reg [1:0]ledState = 3;
 reg [3:0]num = 10;
 reg [5:0]ct=4;
 reg [3:0]num0,num1,num2,num3;
@@ -24,7 +24,7 @@ sevenSeg(num, seg);
 assign dp = 1;
 always @(posedge clkDiv[18])
 begin
-if(sw[0]) begin an = 4'b1111; an[3-ledState] = 0; end
+if(sw[0]) begin an = 4'b1111; an[ledState] = 0; end
 else an = 4'b0000;
 end
 always @(posedge targetClk)  begin

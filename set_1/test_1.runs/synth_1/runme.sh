@@ -3,24 +3,24 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/home/tan14007/Desktop/vivado/SDK/2018.3/bin:/home/tan14007/Desktop/vivado/Vivado/2018.3/ids_lite/ISE/bin/lin64:/home/tan14007/Desktop/vivado/Vivado/2018.3/bin
+  PATH=/home/polp/Desktop/Vivado/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/polp/Desktop/Vivado/Vivado/2019.2/bin
 else
-  PATH=/home/tan14007/Desktop/vivado/SDK/2018.3/bin:/home/tan14007/Desktop/vivado/Vivado/2018.3/ids_lite/ISE/bin/lin64:/home/tan14007/Desktop/vivado/Vivado/2018.3/bin:$PATH
+  PATH=/home/polp/Desktop/Vivado/Vivado/2019.2/ids_lite/ISE/bin/lin64:/home/polp/Desktop/Vivado/Vivado/2019.2/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/home/tan14007/Desktop/vivado/Vivado/2018.3/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=
 else
-  LD_LIBRARY_PATH=/home/tan14007/Desktop/vivado/Vivado/2018.3/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/tan14007/test_1/test_1.runs/synth_1'
+HD_PWD='/home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

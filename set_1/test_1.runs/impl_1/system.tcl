@@ -65,16 +65,18 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param xicom.use_bs_reader 1
+  set_param chipscope.maxJobs 2
   create_project -in_memory -part xc7a35tcpg236-1
   set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir /home/tan14007/test_1/test_1.cache/wt [current_project]
-  set_property parent.project_path /home/tan14007/test_1/test_1.xpr [current_project]
-  set_property ip_output_repo /home/tan14007/test_1/test_1.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.cache/wt [current_project]
+  set_property parent.project_path /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.xpr [current_project]
+  set_property ip_output_repo /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet /home/tan14007/test_1/test_1.runs/synth_1/system.dcp
-  read_xdc /home/tan14007/test_1/test_1.srcs/constrs_1/imports/Desktop/Basys-3-Master.xdc
+  add_files -quiet /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.runs/synth_1/system.dcp
+  read_xdc /home/polp/Desktop/HWSynQuiz2020/set_1/test_1.srcs/constrs_1/imports/Desktop/Basys-3-Master.xdc
   link_design -top system -part xc7a35tcpg236-1
   close_msg_db -file init_design.pb
 } RESULT]

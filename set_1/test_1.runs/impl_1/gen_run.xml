@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1583824889">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1583901476">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="BG-DRC" Name="system.drc"/>
   <File Type="BG-BGN" Name="system.bgn"/>
   <File Type="BITSTR-SYSDEF" Name="system.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="system.ltx"/>
+  <File Type="RBD_FILE" Name="system.rbd"/>
+  <File Type="NPI_FILE" Name="system.npi"/>
+  <File Type="RNPI_FILE" Name="system.rnpi"/>
+  <File Type="CFI_FILE" Name="system.cfi"/>
+  <File Type="RDI-RDI" Name="system.vdi"/>
+  <File Type="RCFI_FILE" Name="system.rcfi"/>
+  <File Type="PDI-FILE" Name="system.pdi"/>
   <File Type="BITSTR-MMI" Name="system.mmi"/>
   <File Type="BITSTR-BMM" Name="system_bd.bmm"/>
   <File Type="BITSTR-NKY" Name="system.nky"/>
@@ -16,12 +23,13 @@
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="system_bus_skew_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="system_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="system_bus_skew_postroute_physopted.rpt"/>
-  <File Type="RDI-RDI" Name="system.vdi"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="system_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="system_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="system_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="system_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="system_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="system_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="system_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW" Name="system_bus_skew_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="system_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-SIMILARITY" Name="system_incremental_reuse_routed.rpt"/>
@@ -56,18 +64,16 @@
   <File Type="PLACE-CLK" Name="system_clock_utilization_placed.rpt"/>
   <File Type="PLACE-IO" Name="system_io_placed.rpt"/>
   <File Type="PLACE-DCP" Name="system_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="system_timing_summary_pwropted.rpt"/>
   <File Type="PWROPT-DRC" Name="system_drc_pwropted.rpt"/>
   <File Type="PWROPT-DCP" Name="system_pwropt.dcp"/>
-  <File Type="OPT-TIMING" Name="system_timing_summary_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="system.hwdef"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="system_methodology_drc_opted.rpt"/>
   <File Type="OPT-DRC" Name="system_drc_opted.rpt"/>
   <File Type="OPT-DCP" Name="system_opt.dcp"/>
   <File Type="INIT-TIMING" Name="system_timing_summary_init.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="system_bus_skew_routed.rpx"/>
+  <File Type="PWROPT-TIMING" Name="system_timing_summary_pwropted.rpt"/>
   <File Type="REPORTS-TCL" Name="system_reports.tcl"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="system_bus_skew_routed.pb"/>
+  <File Type="OPT-TIMING" Name="system_timing_summary_opted.rpt"/>
   <File Type="PA-TCL" Name="system.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
