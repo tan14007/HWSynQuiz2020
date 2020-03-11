@@ -1,8 +1,8 @@
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Wed Mar 11 13:48:37 2020
-| Host         : tan14007-VirtualBox running 64-bit Ubuntu 18.04.4 LTS
+| Tool Version : Vivado v.2019.2.1 (lin64) Build 2729669 Thu Dec  5 04:48:12 MST 2019
+| Date         : Wed Mar 11 20:43:04 2020
+| Host         : polp-desktop running 64-bit Ubuntu 18.04.4 LTS
 | Command      : report_drc -file system_drc_opted.rpt -pb system_drc_opted.pb -rpx system_drc_opted.rpx
 | Design       : system
 | Device       : xc7a35tcpg236-1
@@ -35,8 +35,8 @@ Table of Contents
 -----------------
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT genblk1[27].nolabel_line22/curNum[9]_i_2 is driving clock pin of 15 cells. This could lead to large hold time violations. Involved cells are:
-curAddNum_reg[0], curAddNum_reg[1], curAddNum_reg[2], curAddNum_reg[3], curAddNum_reg[4], curNum_reg[0], curNum_reg[1], curNum_reg[2], curNum_reg[3], curNum_reg[4], curNum_reg[5], curNum_reg[6], curNum_reg[7], curNum_reg[8], curNum_reg[9] (the first 15 of 15 listed)
+A LUT genblk1[27].nolabel_line21/curNum[13]_i_3 is driving clock pin of 19 cells. This could lead to large hold time violations. Involved cells are:
+curAddNum_reg[0], curAddNum_reg[1], curAddNum_reg[2], curAddNum_reg[3], curAddNum_reg[4], curNum_reg[0], curNum_reg[10], curNum_reg[11], curNum_reg[12], curNum_reg[13], curNum_reg[1], curNum_reg[2], curNum_reg[3], curNum_reg[4], curNum_reg[5] (the first 15 of 19 listed)
 Related violations: <none>
 
 

@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/tan14007/HWSynQuiz2020/set_4_copy/set_4_copy.srcs/constrs_1/imports/Desktop/Basys-3-Master.xdc rfile:../../../set_4_copy.srcs/constrs_1/imports/Desktop/Basys-3-Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/polp/Desktop/HWSynQuiz2020/set_4/set_4_copy.srcs/constrs_1/imports/Desktop/Basys-3-Master.xdc rfile:../../../set_4_copy.srcs/constrs_1/imports/Desktop/Basys-3-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]

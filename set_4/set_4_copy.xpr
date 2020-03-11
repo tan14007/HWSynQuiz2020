@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2018.3 (64-bit)              -->
+<!-- Product Version: Vivado v2019.2.1 (64-bit)              -->
 <!--                                                         -->
-<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
+<!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="/home/tan14007/HWSynQuiz2020/set_4_copy/set_4_copy.xpr">
+<Project Version="7" Minor="44" Path="/home/polp/Desktop/HWSynQuiz2020/set_4/set_4_copy.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="ec3f89b3b44a463aa597c681796508ba"/>
@@ -29,9 +29,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="basys3"/>
-    <Option Name="DSANumComputeUnits" Val="60"/>
     <Option Name="WTXSimLaunchSim" Val="0"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
@@ -56,13 +54,14 @@
     <Option Name="SimTypes" Val="tlm"/>
     <Option Name="SimTypes" Val="tlm_dpi"/>
     <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
   </Configuration>
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/new/clockDiv.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../set_4/test_1.srcs/sources_1/new/clockDiv.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/test_1.srcs/sources_1/new/clockDiv.v"/>
           <Attr Name="ImportTime" Val="1583908367"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -71,7 +70,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/sevenSeg.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../set_4/test_1.srcs/sources_1/new/sevenSeg.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/test_1.srcs/sources_1/new/sevenSeg.v"/>
           <Attr Name="ImportTime" Val="1583908367"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -80,7 +79,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/system.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../set_4/test_1.srcs/sources_1/new/system.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/test_1.srcs/sources_1/new/system.v"/>
           <Attr Name="ImportTime" Val="1583908367"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -116,6 +115,7 @@
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>
@@ -150,7 +150,7 @@
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
     </Simulator>
   </Simulators>
-  <Runs Version="1" Minor="10">
+  <Runs Version="1" Minor="11">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
@@ -159,6 +159,7 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
@@ -176,6 +177,7 @@
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
     </Run>
   </Runs>
   <Board>
@@ -210,7 +212,4 @@
       <CurrentDashboard>default_dashboard</CurrentDashboard>
     </Dashboards>
   </DashboardSummary>
-  <BootPmcSettings Version="1" Minor="0">
-    <Parameters/>
-  </BootPmcSettings>
 </Project>
