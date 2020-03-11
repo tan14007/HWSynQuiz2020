@@ -1,0 +1,96 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 13:48:44 2020
+| Host         : tan14007-VirtualBox running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_control_sets -verbose -file system_control_sets_placed.rpt
+| Design       : system
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    29 |
+| Unused register locations in slices containing registers |   195 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           26 |
+|      5 |            1 |
+|     10 |            1 |
+|     12 |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              48 |           36 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               5 |            2 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+---------------+------------------+------------------+----------------+
+|              Clock Signal             | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------+---------------+------------------+------------------+----------------+
+|  genblk1[15].nolabel_line22/p_15_out  |               |                  |                1 |              1 |
+|  genblk1[26].nolabel_line22/p_4_out   |               |                  |                1 |              1 |
+|  genblk1[20].nolabel_line22/p_10_out  |               |                  |                1 |              1 |
+|  genblk1[12].nolabel_line22/p_18_out  |               |                  |                1 |              1 |
+|  genblk1[11].nolabel_line22/p_19_out  |               |                  |                1 |              1 |
+|  genblk1[24].nolabel_line22/p_6_out   |               |                  |                1 |              1 |
+|  genblk1[10].nolabel_line22/p_20_out  |               |                  |                1 |              1 |
+|  genblk1[25].nolabel_line22/p_5_out   |               |                  |                1 |              1 |
+|  genblk1[1].nolabel_line22/p_29_out   |               |                  |                1 |              1 |
+|  genblk1[19].nolabel_line22/p_11_out  |               |                  |                1 |              1 |
+|  genblk1[17].nolabel_line22/p_13_out  |               |                  |                1 |              1 |
+|  genblk1[16].nolabel_line22/p_14_out  |               |                  |                1 |              1 |
+|  genblk1[2].nolabel_line22/p_28_out   |               |                  |                1 |              1 |
+|  genblk1[14].nolabel_line22/p_16_out  |               |                  |                1 |              1 |
+|  genblk1[9].nolabel_line22/p_21_out   |               |                  |                1 |              1 |
+|  genblk1[8].nolabel_line22/p_22_out   |               |                  |                1 |              1 |
+|  genblk1[7].nolabel_line22/p_23_out   |               |                  |                1 |              1 |
+|  genblk1[6].nolabel_line22/p_24_out   |               |                  |                1 |              1 |
+|  genblk1[5].nolabel_line22/p_25_out   |               |                  |                1 |              1 |
+|  genblk1[4].nolabel_line22/p_26_out   |               |                  |                1 |              1 |
+|  genblk1[13].nolabel_line22/p_17_out  |               |                  |                1 |              1 |
+|  genblk1[3].nolabel_line22/p_27_out   |               |                  |                1 |              1 |
+|  genblk1[21].nolabel_line22/p_9_out   |               |                  |                1 |              1 |
+|  genblk1[22].nolabel_line22/p_8_out   |               |                  |                1 |              1 |
+|  clk_IBUF_BUFG                        |               |                  |                1 |              1 |
+|  genblk1[23].nolabel_line22/p_7_out   |               |                  |                1 |              1 |
+|  genblk1[27].nolabel_line22/out_reg_0 | sel           |                  |                2 |              5 |
+|  genblk1[27].nolabel_line22/out_reg_0 |               |                  |                3 |             10 |
+|  genblk1[18].nolabel_line22/CLK       |               |                  |                7 |             12 |
++---------------------------------------+---------------+------------------+------------------+----------------+
+
+

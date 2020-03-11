@@ -1,0 +1,48 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 11 13:49:03 2020
+| Host         : tan14007-VirtualBox running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_drc -file system_drc_routed.rpt -pb system_drc_routed.pb -rpx system_drc_routed.rpx
+| Design       : system
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PDRC-153    | Warning  | Gated clock check                                           | 1          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net genblk1[27].nolabel_line22/out_reg_0 is a gated clock net sourced by a combinational pin genblk1[27].nolabel_line22/curNum[9]_i_2/O, cell genblk1[27].nolabel_line22/curNum[9]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT genblk1[27].nolabel_line22/curNum[9]_i_2 is driving clock pin of 15 cells. This could lead to large hold time violations. Involved cells are:
+curAddNum_reg[0], curAddNum_reg[1], curAddNum_reg[2], curAddNum_reg[3], curAddNum_reg[4], curNum_reg[0], curNum_reg[1], curNum_reg[2], curNum_reg[3], curNum_reg[4], curNum_reg[5], curNum_reg[6], curNum_reg[7], curNum_reg[8], curNum_reg[9] (the first 15 of 15 listed)
+Related violations: <none>
+
+
